@@ -36,5 +36,5 @@ void Floor::show_floor()
         }
         putchar('\n');
     }
-    getchar();
+    
 }
