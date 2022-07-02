@@ -1,13 +1,11 @@
 /* Includes */
 
-
 #include "Scene.h"
 
+Scene sceneObject;
 
-/* Main function */
 int main(void)
 {
-	Scene scene;
-	scene.show();
-    return 0;
+	sceneObject.run();
+	return 0;
 }
